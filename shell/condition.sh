@@ -1,8 +1,10 @@
 
+
 #Check whether they are equal
 if [ $1 == "beginner" ]
+if [ $2 == "$1"]
 then
-    echo "entered value is beginner"
+    echo "entered value is same"
 else
-  echo "entered value is not beginner, it is actually $1"
+  echo "entered value is not same, it is actually $2"
 fi
