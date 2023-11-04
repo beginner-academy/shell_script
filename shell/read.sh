@@ -1,9 +1,10 @@
 
+
 #!/bin/bash
 
 
 read -p 'please enter your Username:' samira
-read -p 'please enter your city:' city
+read -p 'please enter your location:' city
 read -p 'please enter the amount:' money
 read -sp 'please enter pin: ' passvar
 echo
